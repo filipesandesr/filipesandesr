@@ -16,9 +16,9 @@ build:
 runs-on: ubuntu-latest
 steps:
 
-# Checks repo under $GITHUB_WORKSHOP, so your job can access
-it
+# Checks repo under $GITHUB_WORKSHOP, so your job can access it
 - uses: actions/checkout@v2
+
 # Repositorio que será utilizado para gerar os arquivos.
 - uses: Platane/snk@master
 id: snake-gif
